@@ -118,10 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="database" xml:space="preserve">
-    <value>19559539_example</value>
+    <value>geocache</value>
+  </data>
+  <data name="datasource" xml:space="preserve">
+    <value>127.0.0.1</value>
   </data>
   <data name="password" xml:space="preserve">
-    <value>prog_ob_1234</value>
+    <value />
   </data>
   <data name="port" xml:space="preserve">
     <value>3306</value>
@@ -130,6 +133,6 @@
     <value>serwer1647118.home.pl</value>
   </data>
   <data name="user" xml:space="preserve">
-    <value>19559539_example</value>
+    <value>root</value>
   </data>
 </root>

@@ -16,7 +16,6 @@ C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Data.SQLite.xml
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Data.SQLite.dll.config
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.csprojAssemblyReference.cache
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.Form1.resources
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.csproj.GenerateResource.cache
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.csproj.CoreCompileInputs.cache
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.csproj.CopyComplete
@@ -27,3 +26,17 @@ C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySql.Data.xml
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.DataBase.DBResources.resources
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.bt_stats_info.resources
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.Properties.Resources.resources
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Google.Protobuf.pdb
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Google.Protobuf.xml
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.exe.config
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.UCLogin.resources
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml

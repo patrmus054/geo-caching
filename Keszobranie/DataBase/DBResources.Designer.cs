@@ -61,7 +61,7 @@ namespace Keszobranie.DataBase {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 19559539_example.
+        ///   Looks up a localized string similar to geocache.
         /// </summary>
         internal static string database {
             get {
@@ -70,7 +70,16 @@ namespace Keszobranie.DataBase {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to prog_ob_1234.
+        ///   Looks up a localized string similar to 127.0.0.1.
+        /// </summary>
+        internal static string datasource {
+            get {
+                return ResourceManager.GetString("datasource", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
         /// </summary>
         internal static string password {
             get {
@@ -97,7 +106,7 @@ namespace Keszobranie.DataBase {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 19559539_example.
+        ///   Looks up a localized string similar to root.
         /// </summary>
         internal static string user {
             get {

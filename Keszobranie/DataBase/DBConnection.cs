@@ -6,6 +6,7 @@ namespace Keszobranie
     class DBConnection
     {
         private static DBConnection INSTANCE = null;
+        private DBConnection() { }
         public static DBConnection getInstance()
         {
             if(INSTANCE is null)
@@ -14,9 +15,9 @@ namespace Keszobranie
             }
             return INSTANCE;
         }
-        private DBConnection() { }
+        
 
-        public void ExecuteCommand(uint port, string server, string user, string password, string database)
+        public void ExecuteCommand(uint port, string server, string user, string password, string database, string query)
         {
             MySqlConnectionStringBuilder connectionBuilder = new MySqlConnectionStringBuilder();
 
@@ -26,7 +27,11 @@ namespace Keszobranie
             connectionBuilder.Password = password;
             connectionBuilder.Database = database;
 
-            using (MySqlConnection conn = new MySqlConnection(connectionBuilder.ToString()))
+            // albo 
+
+            string connectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=geocache;";
+
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 try
                 {
@@ -37,7 +42,7 @@ namespace Keszobranie
                         {
                             while (dataReader.Read())
                             {
-                                var x = dataReader["fname"];
+                                var x = dataReader["email"];
                                 Console.WriteLine(x);
                             }
                         }
@@ -47,11 +52,8 @@ namespace Keszobranie
                 catch (Exception exc)
                 {
                     Console.WriteLine(exc.Message);
-                    Console.WriteLine("W zrodlach brak jest hasla - nalezy podac takie jak na zajeciach lab");
                 }
             }
-            Console.WriteLine("SIngleton");
-
         }
 
     }

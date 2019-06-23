@@ -29,13 +29,20 @@ namespace Keszobranie
 
         public void loadMap(GMapControl map)
         {
-            map.MapProvider = GMap.NET.MapProviders.GoogleMapProvider.Instance;
-            map.DragButton = MouseButtons.Left;
-            GMaps.Instance.Mode = GMap.NET.AccessMode.ServerAndCache;
-            map.Position = new PointLatLng(50.287195, 18.677615);
-            map.Zoom = 20;
 
-            
+            GMaps.Instance.Mode = GMap.NET.AccessMode.ServerAndCache;
+
+            map.MapProvider = GMap.NET.MapProviders.GoogleMapProvider.Instance;
+            map.ShowCenter = false;
+            map.MinZoom = 4;                                                                           
+            map.MaxZoom = 20;
+            map.Zoom = 1;
+            map.MouseWheelZoomType = GMap.NET.MouseWheelZoomType.MousePositionWithoutCenter;               
+            map.CanDragMap = true;                                                                      
+            map.DragButton = MouseButtons.Left;
+            map.Position = new PointLatLng(50.287195, 18.677615);
+            //map.Zoom = 20;
+
             this.map = map;
         }
         public GMapControl getMap()

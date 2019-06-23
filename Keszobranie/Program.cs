@@ -19,7 +19,7 @@ namespace Keszobranie
             Application.SetCompatibleTextRenderingDefault(false);
 
             Model model = new Model();
-            IView view = new Form1();
+            IView view = new bt_stats_info();
             Presenter presenter = new Presenter(model, view);
             Application.Run((Form)view);
         }
