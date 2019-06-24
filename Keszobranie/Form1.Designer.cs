@@ -29,44 +29,68 @@
         private void InitializeComponent()
         {
             this.userControlPanel = new System.Windows.Forms.Panel();
+            this.bt_add_user_cache = new System.Windows.Forms.Button();
             this.panel_user_stats = new System.Windows.Forms.Panel();
             this.lb_user_week_sequence = new System.Windows.Forms.Label();
             this.lb_user_progress = new System.Windows.Forms.Label();
             this.lb_user_cache_not_found = new System.Windows.Forms.Label();
             this.lb_user_cache_found = new System.Windows.Forms.Label();
+            this.bt_user_statistics = new System.Windows.Forms.Button();
             this.panel_cache_info = new System.Windows.Forms.Panel();
             this.lb_location_difficulty = new System.Windows.Forms.Label();
             this.lb_cache_found = new System.Windows.Forms.Label();
             this.lb_cache_difficulty = new System.Windows.Forms.Label();
             this.lb_cache_description = new System.Windows.Forms.Label();
             this.lb_cache_name = new System.Windows.Forms.Label();
+            this.bt_cache_info = new System.Windows.Forms.Button();
             this.panel_user_info = new System.Windows.Forms.Panel();
             this.lb_user_advancement = new System.Windows.Forms.Label();
             this.lb_user_age = new System.Windows.Forms.Label();
             this.lb_user_surename = new System.Windows.Forms.Label();
             this.lb_user_name = new System.Windows.Forms.Label();
+            this.bt_user = new System.Windows.Forms.Button();
             this.bt_submit = new System.Windows.Forms.Button();
             this.map = new GMap.NET.WindowsForms.GMapControl();
-            this.bt_user_statistics = new System.Windows.Forms.Button();
-            this.bt_cache_info = new System.Windows.Forms.Button();
-            this.bt_user = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.img_settings = new System.Windows.Forms.PictureBox();
+            this.img_bin = new System.Windows.Forms.PictureBox();
+            this.img_login = new System.Windows.Forms.PictureBox();
+            this.img_newCache = new System.Windows.Forms.PictureBox();
             this.userControlPanel.SuspendLayout();
             this.panel_user_stats.SuspendLayout();
             this.panel_cache_info.SuspendLayout();
             this.panel_user_info.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.img_settings)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_bin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_login)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_newCache)).BeginInit();
             this.SuspendLayout();
             // 
             // userControlPanel
             // 
+            this.userControlPanel.Controls.Add(this.bt_add_user_cache);
             this.userControlPanel.Controls.Add(this.panel_user_stats);
             this.userControlPanel.Controls.Add(this.panel_cache_info);
             this.userControlPanel.Controls.Add(this.panel_user_info);
             this.userControlPanel.Controls.Add(this.bt_submit);
-            this.userControlPanel.Location = new System.Drawing.Point(1090, 12);
+            this.userControlPanel.Location = new System.Drawing.Point(1090, 158);
             this.userControlPanel.Name = "userControlPanel";
-            this.userControlPanel.Size = new System.Drawing.Size(288, 781);
+            this.userControlPanel.Size = new System.Drawing.Size(288, 635);
             this.userControlPanel.TabIndex = 0;
             this.userControlPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.UserControlPanel_Paint);
+            // 
+            // bt_add_user_cache
+            // 
+            this.bt_add_user_cache.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.bt_add_user_cache.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.bt_add_user_cache.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.bt_add_user_cache.Location = new System.Drawing.Point(0, 575);
+            this.bt_add_user_cache.Name = "bt_add_user_cache";
+            this.bt_add_user_cache.Size = new System.Drawing.Size(288, 60);
+            this.bt_add_user_cache.TabIndex = 8;
+            this.bt_add_user_cache.Text = "ADD CACHE";
+            this.bt_add_user_cache.UseVisualStyleBackColor = true;
             // 
             // panel_user_stats
             // 
@@ -81,7 +105,7 @@
             this.panel_user_stats.MinimumSize = new System.Drawing.Size(288, 60);
             this.panel_user_stats.Name = "panel_user_stats";
             this.panel_user_stats.Size = new System.Drawing.Size(288, 60);
-            this.panel_user_stats.TabIndex = 3;
+            this.panel_user_stats.TabIndex = 6;
             // 
             // lb_user_week_sequence
             // 
@@ -123,6 +147,23 @@
             this.lb_user_cache_found.Size = new System.Drawing.Size(0, 18);
             this.lb_user_cache_found.TabIndex = 3;
             // 
+            // bt_user_statistics
+            // 
+            this.bt_user_statistics.BackColor = System.Drawing.Color.White;
+            this.bt_user_statistics.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bt_user_statistics.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_user_statistics.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.bt_user_statistics.ForeColor = System.Drawing.Color.Black;
+            this.bt_user_statistics.Image = global::Keszobranie.Properties.Resources.icons8_expand_arrow_50;
+            this.bt_user_statistics.Location = new System.Drawing.Point(0, 0);
+            this.bt_user_statistics.Name = "bt_user_statistics";
+            this.bt_user_statistics.Size = new System.Drawing.Size(288, 60);
+            this.bt_user_statistics.TabIndex = 2;
+            this.bt_user_statistics.Text = "USER STATISTICS";
+            this.bt_user_statistics.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.bt_user_statistics.UseVisualStyleBackColor = false;
+            this.bt_user_statistics.Click += new System.EventHandler(this.Bt_user_statistics_Click);
+            // 
             // panel_cache_info
             // 
             this.panel_cache_info.Controls.Add(this.lb_location_difficulty);
@@ -137,7 +178,7 @@
             this.panel_cache_info.MinimumSize = new System.Drawing.Size(288, 60);
             this.panel_cache_info.Name = "panel_cache_info";
             this.panel_cache_info.Size = new System.Drawing.Size(288, 61);
-            this.panel_cache_info.TabIndex = 4;
+            this.panel_cache_info.TabIndex = 7;
             // 
             // lb_location_difficulty
             // 
@@ -189,6 +230,22 @@
             this.lb_cache_name.Size = new System.Drawing.Size(0, 18);
             this.lb_cache_name.TabIndex = 2;
             // 
+            // bt_cache_info
+            // 
+            this.bt_cache_info.BackColor = System.Drawing.Color.White;
+            this.bt_cache_info.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bt_cache_info.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_cache_info.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.bt_cache_info.Image = global::Keszobranie.Properties.Resources.icons8_expand_arrow_50;
+            this.bt_cache_info.Location = new System.Drawing.Point(0, 0);
+            this.bt_cache_info.Name = "bt_cache_info";
+            this.bt_cache_info.Size = new System.Drawing.Size(288, 58);
+            this.bt_cache_info.TabIndex = 1;
+            this.bt_cache_info.Text = "CACHE INFO";
+            this.bt_cache_info.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.bt_cache_info.UseVisualStyleBackColor = false;
+            this.bt_cache_info.Click += new System.EventHandler(this.Bt_cache_info_Click);
+            // 
             // panel_user_info
             // 
             this.panel_user_info.Controls.Add(this.lb_user_advancement);
@@ -202,7 +259,7 @@
             this.panel_user_info.MinimumSize = new System.Drawing.Size(288, 60);
             this.panel_user_info.Name = "panel_user_info";
             this.panel_user_info.Size = new System.Drawing.Size(288, 60);
-            this.panel_user_info.TabIndex = 2;
+            this.panel_user_info.TabIndex = 5;
             // 
             // lb_user_advancement
             // 
@@ -244,6 +301,22 @@
             this.lb_user_name.Size = new System.Drawing.Size(0, 18);
             this.lb_user_name.TabIndex = 1;
             // 
+            // bt_user
+            // 
+            this.bt_user.BackColor = System.Drawing.Color.White;
+            this.bt_user.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bt_user.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_user.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.bt_user.Image = global::Keszobranie.Properties.Resources.icons8_expand_arrow_50;
+            this.bt_user.Location = new System.Drawing.Point(0, 0);
+            this.bt_user.Name = "bt_user";
+            this.bt_user.Size = new System.Drawing.Size(288, 58);
+            this.bt_user.TabIndex = 0;
+            this.bt_user.Text = "USER INFO";
+            this.bt_user.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.bt_user.UseVisualStyleBackColor = false;
+            this.bt_user.Click += new System.EventHandler(this.Bt_user_Click);
+            // 
             // bt_submit
             // 
             this.bt_submit.Location = new System.Drawing.Point(0, 734);
@@ -279,56 +352,66 @@
             this.map.Size = new System.Drawing.Size(1072, 780);
             this.map.TabIndex = 1;
             this.map.Zoom = 0D;
+            this.map.OnMarkerClick += new GMap.NET.WindowsForms.MarkerClick(this.Map_OnMarkerClick);
             this.map.Load += new System.EventHandler(this.Map_Load);
+            this.map.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Map_MouseClick_1);
+            this.map.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.Map_MouseDoubleClick);
             // 
-            // bt_user_statistics
+            // panel1
             // 
-            this.bt_user_statistics.BackColor = System.Drawing.Color.White;
-            this.bt_user_statistics.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bt_user_statistics.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_user_statistics.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.bt_user_statistics.ForeColor = System.Drawing.Color.Black;
-            this.bt_user_statistics.Image = global::Keszobranie.Properties.Resources.icons8_expand_arrow_50;
-            this.bt_user_statistics.Location = new System.Drawing.Point(0, 0);
-            this.bt_user_statistics.Name = "bt_user_statistics";
-            this.bt_user_statistics.Size = new System.Drawing.Size(288, 60);
-            this.bt_user_statistics.TabIndex = 2;
-            this.bt_user_statistics.Text = "USER STATISTICS";
-            this.bt_user_statistics.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.bt_user_statistics.UseVisualStyleBackColor = false;
-            this.bt_user_statistics.Click += new System.EventHandler(this.Bt_user_statistics_Click);
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.img_settings);
+            this.panel1.Controls.Add(this.img_bin);
+            this.panel1.Controls.Add(this.img_login);
+            this.panel1.Location = new System.Drawing.Point(1116, 33);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(205, 70);
+            this.panel1.TabIndex = 2;
             // 
-            // bt_cache_info
+            // img_settings
             // 
-            this.bt_cache_info.BackColor = System.Drawing.Color.White;
-            this.bt_cache_info.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bt_cache_info.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_cache_info.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.bt_cache_info.Image = global::Keszobranie.Properties.Resources.icons8_expand_arrow_50;
-            this.bt_cache_info.Location = new System.Drawing.Point(0, 0);
-            this.bt_cache_info.Name = "bt_cache_info";
-            this.bt_cache_info.Size = new System.Drawing.Size(288, 58);
-            this.bt_cache_info.TabIndex = 1;
-            this.bt_cache_info.Text = "CACHE INFO";
-            this.bt_cache_info.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.bt_cache_info.UseVisualStyleBackColor = false;
-            this.bt_cache_info.Click += new System.EventHandler(this.Bt_cache_info_Click_1);
+            this.img_settings.Image = global::Keszobranie.Properties.Resources.icons8_settings_filled_50;
+            this.img_settings.InitialImage = global::Keszobranie.Properties.Resources.icons8_settings_filled_50;
+            this.img_settings.Location = new System.Drawing.Point(75, 3);
+            this.img_settings.Name = "img_settings";
+            this.img_settings.Size = new System.Drawing.Size(60, 60);
+            this.img_settings.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.img_settings.TabIndex = 7;
+            this.img_settings.TabStop = false;
             // 
-            // bt_user
+            // img_bin
             // 
-            this.bt_user.BackColor = System.Drawing.Color.White;
-            this.bt_user.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bt_user.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_user.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.bt_user.Image = global::Keszobranie.Properties.Resources.icons8_expand_arrow_50;
-            this.bt_user.Location = new System.Drawing.Point(0, 0);
-            this.bt_user.Name = "bt_user";
-            this.bt_user.Size = new System.Drawing.Size(288, 58);
-            this.bt_user.TabIndex = 0;
-            this.bt_user.Text = "USER INFO";
-            this.bt_user.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.bt_user.UseVisualStyleBackColor = false;
-            this.bt_user.Click += new System.EventHandler(this.Bt_user_Click);
+            this.img_bin.Image = global::Keszobranie.Properties.Resources.icons8_delete_bin_filled_50;
+            this.img_bin.Location = new System.Drawing.Point(140, 3);
+            this.img_bin.Name = "img_bin";
+            this.img_bin.Size = new System.Drawing.Size(60, 60);
+            this.img_bin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.img_bin.TabIndex = 6;
+            this.img_bin.TabStop = false;
+            // 
+            // img_login
+            // 
+            this.img_login.Image = global::Keszobranie.Properties.Resources.icons8_login_64;
+            this.img_login.InitialImage = global::Keszobranie.Properties.Resources.icons8_login_64;
+            this.img_login.Location = new System.Drawing.Point(10, 3);
+            this.img_login.Name = "img_login";
+            this.img_login.Size = new System.Drawing.Size(60, 60);
+            this.img_login.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.img_login.TabIndex = 5;
+            this.img_login.TabStop = false;
+            this.img_login.Click += new System.EventHandler(this.Img_login_Click);
+            // 
+            // img_newCache
+            // 
+            this.img_newCache.BackColor = System.Drawing.Color.Yellow;
+            this.img_newCache.Image = global::Keszobranie.Properties.Resources.treasure;
+            this.img_newCache.Location = new System.Drawing.Point(977, 40);
+            this.img_newCache.Name = "img_newCache";
+            this.img_newCache.Size = new System.Drawing.Size(69, 63);
+            this.img_newCache.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.img_newCache.TabIndex = 3;
+            this.img_newCache.TabStop = false;
+            this.img_newCache.Click += new System.EventHandler(this.Img_newCache_Click);
             // 
             // bt_stats_info
             // 
@@ -336,6 +419,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1390, 805);
+            this.Controls.Add(this.img_newCache);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.map);
             this.Controls.Add(this.userControlPanel);
             this.Name = "bt_stats_info";
@@ -348,6 +433,11 @@
             this.panel_cache_info.PerformLayout();
             this.panel_user_info.ResumeLayout(false);
             this.panel_user_info.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.img_settings)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_bin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_login)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img_newCache)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -357,12 +447,6 @@
         private System.Windows.Forms.Panel userControlPanel;
         private GMap.NET.WindowsForms.GMapControl map;
         private System.Windows.Forms.Button bt_submit;
-        private System.Windows.Forms.Panel panel_user_info;
-        private System.Windows.Forms.Button bt_user;
-        private System.Windows.Forms.Label lb_user_advancement;
-        private System.Windows.Forms.Label lb_user_age;
-        private System.Windows.Forms.Label lb_user_surename;
-        private System.Windows.Forms.Label lb_user_name;
         private System.Windows.Forms.Panel panel_user_stats;
         private System.Windows.Forms.Label lb_user_week_sequence;
         private System.Windows.Forms.Label lb_user_progress;
@@ -376,5 +460,17 @@
         private System.Windows.Forms.Label lb_cache_description;
         private System.Windows.Forms.Label lb_cache_name;
         private System.Windows.Forms.Button bt_cache_info;
+        private System.Windows.Forms.Panel panel_user_info;
+        private System.Windows.Forms.Label lb_user_advancement;
+        private System.Windows.Forms.Label lb_user_age;
+        private System.Windows.Forms.Label lb_user_surename;
+        private System.Windows.Forms.Label lb_user_name;
+        private System.Windows.Forms.Button bt_user;
+        private System.Windows.Forms.PictureBox img_login;
+        private System.Windows.Forms.PictureBox img_bin;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox img_settings;
+        private System.Windows.Forms.Button bt_add_user_cache;
+        private System.Windows.Forms.PictureBox img_newCache;
     }
 }

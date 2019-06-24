@@ -8,9 +8,11 @@ namespace Keszobranie.Views
 {
     public interface ILoginView
     {
-        string login { get; }
+        string Email { get; }
         string password { get; }
 
         event Action authorize;
+        event Action registerNewAccount;
+        
     }
 }

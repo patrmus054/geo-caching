@@ -3,6 +3,7 @@ namespace Keszobranie.Migrations
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
+    using System.Data.Entity.ModelConfiguration.Conventions;
     using System.Linq;
 
     internal sealed class Configuration : DbMigrationsConfiguration<Keszobranie.Models.GeoCacheContext>
@@ -11,7 +12,7 @@ namespace Keszobranie.Migrations
         {
             AutomaticMigrationsEnabled = false;
         }
-
+        
         protected override void Seed(Keszobranie.Models.GeoCacheContext context)
         {
             //  This method will be called after migrating to the latest version.
