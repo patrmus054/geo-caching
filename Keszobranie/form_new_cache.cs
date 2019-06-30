@@ -25,10 +25,21 @@ namespace Keszobranie
         public string hint => tb_hint.Text;
 
         public event Action addNewCache;
+        public event Action onExit;
 
         private void Bt_submit_Click(object sender, EventArgs e)
         {
             addNewCache?.Invoke();
+        }
+
+        private void Form_new_cache_FormClosing(object sender, FormClosingEventArgs e)
+        {
+        }
+
+        private void Form_new_cache_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            onExit?.Invoke();
+
         }
     }
 }

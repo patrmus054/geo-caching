@@ -12,16 +12,19 @@ namespace Keszobranie.Presenters
     {
         INewCacheView view;
         Model model;
+        public Boolean AllowNewCache = true;
         public string name, description, hint;
         public NewCachePresenter(INewCacheView view, Model model)
         {
             this.view = view;
             this.model = model;
             this.view.addNewCache += newCache;
+            this.view.onExit += onExit;
         }
         public void showDialog()
         {
             ((form_new_cache)view).ShowDialog();
+            
         }
         public void hideDialog()
         {
@@ -29,10 +32,15 @@ namespace Keszobranie.Presenters
         }
         public void newCache()
         {
+            AllowNewCache = true;
             this.name = view.name;
             this.description = view.description;
             this.hint = view.hint;
             hideDialog();
+        }
+        public void onExit()
+        {
+            AllowNewCache = false;
         }
     }
 }

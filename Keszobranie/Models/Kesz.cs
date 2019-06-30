@@ -17,5 +17,9 @@ namespace Keszobranie
         public Location location { get; set; }
         public int locationId { get; set; }
 
+        public override string ToString()
+        {
+            return $"name: {name}";
+        }
     }
 }

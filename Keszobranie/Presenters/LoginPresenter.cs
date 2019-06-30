@@ -15,6 +15,7 @@ namespace Keszobranie.Presenters
         ILoginView view;
         Model model;
         public User user { get; set; }
+        public Boolean AllowLogin = true;
 
         public LoginPresenter(ILoginView view, Model model )
         {
@@ -22,6 +23,7 @@ namespace Keszobranie.Presenters
             this.view = view;
             this.view.authorize += authorize;
             this.view.registerNewAccount += newAccount;
+            this.view.onExit += onExit;
         }
 
         void newAccount()
@@ -32,18 +34,25 @@ namespace Keszobranie.Presenters
         void authorize()
         {
             this.user = model.auth(view.Email, view.password);
+            if (user != null) AllowLogin = true;
             hideDialog();
                 
         }
 
         public void showDialog()
         {
+            //AllowLogin = true;
             ((form_login)view).ShowDialog();
             
         }
         public void hideDialog()
         {
             ((form_login)view).Hide();
+        }
+
+        public void onExit()
+        {
+            //AllowLogin = false;
         }
     }
 }

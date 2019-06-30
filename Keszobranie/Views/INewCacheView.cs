@@ -12,5 +12,6 @@ namespace Keszobranie.Views
         string description { get; }
         string hint { get; }
         event Action addNewCache;
+        event Action onExit;
     }
 }

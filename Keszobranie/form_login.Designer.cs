@@ -90,11 +90,11 @@
             // 
             this.lb_register.AutoSize = true;
             this.lb_register.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.lb_register.Location = new System.Drawing.Point(48, 206);
+            this.lb_register.Location = new System.Drawing.Point(49, 206);
             this.lb_register.Name = "lb_register";
-            this.lb_register.Size = new System.Drawing.Size(180, 20);
+            this.lb_register.Size = new System.Drawing.Size(171, 20);
             this.lb_register.TabIndex = 10;
-            this.lb_register.Text = "Doesn\'t have account?";
+            this.lb_register.Text = "Register new account";
             this.lb_register.Click += new System.EventHandler(this.Lb_register_Click);
             // 
             // form_login
@@ -118,6 +118,8 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "LOGIN";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_login_FormClosing);
+            this.Load += new System.EventHandler(this.Form_login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

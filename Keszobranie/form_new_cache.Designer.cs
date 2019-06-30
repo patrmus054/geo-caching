@@ -120,6 +120,8 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "NEW CACHE";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_new_cache_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form_new_cache_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

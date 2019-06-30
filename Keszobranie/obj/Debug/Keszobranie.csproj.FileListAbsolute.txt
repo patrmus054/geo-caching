@@ -1,45 +1,13 @@
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Keszobranie.exe.config
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Keszobranie.exe
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Keszobranie.pdb
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\EntityFramework.dll
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\GMap.NET.Core.dll
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\GMap.NET.WindowsForms.dll
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\GMap.NET.WindowsPresentation.dll
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Data.SQLite.dll
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Data.SQLite.EF6.dll
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Data.SQLite.Linq.dll
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\EntityFramework.xml
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Data.SQLite.xml
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Data.SQLite.dll.config
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.csprojAssemblyReference.cache
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.csproj.GenerateResource.cache
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.csproj.CoreCompileInputs.cache
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.csproj.CopyComplete
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.exe
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.pdb
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySql.Data.dll
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Google.Protobuf.dll
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\BouncyCastle.Crypto.dll
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySql.Data.xml
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.DataBase.DBResources.resources
-<<<<<<< HEAD
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.bt_stats_info.resources
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.Properties.Resources.resources
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySql.Data.Entity.EF6.dll
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Google.Protobuf.pdb
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Google.Protobuf.xml
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySql.Data.Entity.EF6.xml
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySql.Data.EntityFramework.dll
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySql.Data.EntityFramework.xml
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.Migrations.Initial.resources
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Microsoft.EntityFrameworkCore.dll
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
@@ -54,15 +22,28 @@ C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Microsoft.Extensions.Logging.dll
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Microsoft.Extensions.Options.dll
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySql.Data.dll
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Remotion.Linq.dll
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Buffers.dll
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Collections.Immutable.dll
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Data.SQLite.dll
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Data.SQLite.Linq.dll
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Interactive.Async.dll
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Memory.dll
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\EntityFramework.xml
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Google.Protobuf.pdb
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Google.Protobuf.xml
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Microsoft.EntityFrameworkCore.xml
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
@@ -77,47 +58,36 @@ C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Microsoft.Extensions.Options.xml
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySql.Data.xml
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\Remotion.Linq.xml
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Buffers.xml
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Data.SQLite.xml
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Data.SQLite.dll.config
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Interactive.Async.xml
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Memory.xml
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.csprojAssemblyReference.cache
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.DataBase.DBResources.resources
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.bt_stats_info.resources
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.form_login.resources
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.form_new_cache.resources
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.form_register.resources
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.Migrations.Initial.resources
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.Migrations.userPasswordAdded.resources
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.Migrations.userEmailAdded.resources
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.form_register.resources
-C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.form_new_cache.resources
 C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.Migrations.locationPropertyChanged.resources
-=======
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\bin\Debug\Keszobranie.exe.config
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\bin\Debug\Keszobranie.exe
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\bin\Debug\Keszobranie.pdb
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\bin\Debug\EntityFramework.dll
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\bin\Debug\GMap.NET.Core.dll
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\bin\Debug\GMap.NET.WindowsForms.dll
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\bin\Debug\GMap.NET.WindowsPresentation.dll
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\bin\Debug\Newtonsoft.Json.dll
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\bin\Debug\System.Data.SQLite.dll
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\bin\Debug\System.Data.SQLite.EF6.dll
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\bin\Debug\System.Data.SQLite.Linq.dll
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\bin\Debug\Google.Protobuf.dll
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\bin\Debug\BouncyCastle.Crypto.dll
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\bin\Debug\EntityFramework.xml
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\bin\Debug\MySql.Data.xml
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\bin\Debug\Newtonsoft.Json.xml
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\bin\Debug\System.Data.SQLite.xml
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\bin\Debug\System.Data.SQLite.dll.config
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\obj\Debug\Keszobranie.csprojAssemblyReference.cache
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\obj\Debug\Keszobranie.DataBase.DBResources.resources
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\obj\Debug\Keszobranie.Form1.resources
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\obj\Debug\Keszobranie.csproj.GenerateResource.cache
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\obj\Debug\Keszobranie.csproj.CoreCompileInputs.cache
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\obj\Debug\Keszobranie.csproj.CopyComplete
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\obj\Debug\Keszobranie.exe
-C:\Users\tweezt\Source\Repos\patrmus054\GeoCaching\Keszobranie\obj\Debug\Keszobranie.pdb
->>>>>>> a3297d4d15c5bd7c425119a73f7fa4cab7af351c
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.Properties.Resources.resources
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.csproj.GenerateResource.cache
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.csproj.CoreCompileInputs.cache
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.csproj.CopyComplete
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.exe
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.pdb
+C:\Users\Paatryk\Desktop\semestr 4\Programowanie_sem_IV\Keszobranie\Keszobranie\Keszobranie\obj\Debug\Keszobranie.form_update_user_data.resources

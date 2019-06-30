@@ -91,6 +91,7 @@
             this.bt_add_user_cache.TabIndex = 8;
             this.bt_add_user_cache.Text = "ADD CACHE";
             this.bt_add_user_cache.UseVisualStyleBackColor = true;
+            this.bt_add_user_cache.Click += new System.EventHandler(this.Bt_add_user_cache_Click);
             // 
             // panel_user_stats
             // 
@@ -378,6 +379,7 @@
             this.img_settings.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.img_settings.TabIndex = 7;
             this.img_settings.TabStop = false;
+            this.img_settings.Click += new System.EventHandler(this.Img_settings_Click);
             // 
             // img_bin
             // 
@@ -388,6 +390,7 @@
             this.img_bin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.img_bin.TabIndex = 6;
             this.img_bin.TabStop = false;
+            this.img_bin.Click += new System.EventHandler(this.Img_bin_Click);
             // 
             // img_login
             // 

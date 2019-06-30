@@ -2,6 +2,7 @@
 using GMap.NET.MapProviders;
 using GMap.NET.WindowsForms;
 using GMap.NET.WindowsForms.Markers;
+using Keszobranie.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -55,11 +56,21 @@ namespace Keszobranie
             return map;
         }
 
-        public static GMapMarker newMarker(double latitude, double longitude)
+        public static GMapMarker newMarker(double latitude, double longitude, PinColor color)
         {
             PointLatLng point = new PointLatLng(latitude, longitude);
-            return new GMarkerGoogle(point, GMarkerGoogleType.blue_dot);
+            switch (color)
+            {
+                case PinColor.BLUE:
+                    return new GMarkerGoogle(point, GMarkerGoogleType.blue_dot);
+                case PinColor.RED:
+                    return new GMarkerGoogle(point, GMarkerGoogleType.red_dot);
+                case PinColor.YELLOW:
+                    return new GMarkerGoogle(point, GMarkerGoogleType.yellow_dot);
+                default:
+                    return new GMarkerGoogle(point, GMarkerGoogleType.blue_dot);
 
+            }
         }
 
         //public static void addMarkersToMap(GMapControl map, List<GMapMarker> markers)
@@ -90,6 +101,14 @@ namespace Keszobranie
             map.Overlays.Add(gMapOverlay);
 
             //   Zoom the map to show all drawn markers
+            map.ZoomAndCenterMarkers(gMapOverlay.Id);
+            map.Refresh();
+        }
+
+        public static void addMarkerToMap(GMapOverlay gMapOverlay, GMapControl map, GMapMarker marker)
+        {
+            marker.IsVisible = true;
+            gMapOverlay.Markers.Add(marker);
             map.ZoomAndCenterMarkers(gMapOverlay.Id);
             map.Refresh();
         }

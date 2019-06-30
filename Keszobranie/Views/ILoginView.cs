@@ -13,6 +13,6 @@ namespace Keszobranie.Views
 
         event Action authorize;
         event Action registerNewAccount;
-        
+        event Action onExit;
     }
 }

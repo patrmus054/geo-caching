@@ -16,6 +16,7 @@ namespace Keszobranie
         private Boolean panelUserStatisticsIsCallapsed = true;
         public Boolean newCache = false;
         private GMapMarker marker;
+        private Boolean LogedIn = false;
 
         public bt_stats_info()
         {
@@ -48,12 +49,17 @@ namespace Keszobranie
         public string cacheName { get => lb_cache_name.Text; set => lb_cache_name.Text = value; }
         public string cacheDescription { get => lb_cache_description.Text; set => lb_cache_description.Text = value; }
         public string cachceHint { get => lb_cache_difficulty.Text; set => lb_cache_difficulty.Text = value; }
+        public bool logedIn { get => LogedIn; set => LogedIn = value; }
 
         public event Action loadMaps;
         public event Action LoadLoginWindow;
         public event Action addNewCache;
         public event Action loadAllCaches;
         public event Action updateCacheInfo;
+        public event Action addFoundCaches;
+        public event Action logOut;
+        public event Action removeClickedCaches;
+        public event Action updateUser;
 
         private void Map_Load(object sender, EventArgs e)
         {
@@ -143,7 +149,15 @@ namespace Keszobranie
 
         private void Img_login_Click(object sender, EventArgs e)
         {
-            LoadLoginWindow?.Invoke();
+            if (!LogedIn)
+            {
+                LoadLoginWindow?.Invoke();
+            }
+            else
+            {
+                LogedIn = false;
+                logOut?.Invoke();
+            }
         }
 
         private void Img_newCache_Click(object sender, EventArgs e)
@@ -189,6 +203,21 @@ namespace Keszobranie
         {
             this.marker = item;
             updateCacheInfo?.Invoke();
+        }
+
+        private void Bt_add_user_cache_Click(object sender, EventArgs e)
+        {
+            addFoundCaches?.Invoke();
+        }
+
+        private void Img_bin_Click(object sender, EventArgs e)
+        {
+            removeClickedCaches?.Invoke();
+        }
+
+        private void Img_settings_Click(object sender, EventArgs e)
+        {
+            updateUser?.Invoke();
         }
     }
 }

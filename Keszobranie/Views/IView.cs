@@ -15,6 +15,7 @@ namespace Keszobranie.Views
         GMapControl Map { get; set; }
         GMapMarker marker { get; set; }
         Boolean newCache { set; }
+        Boolean logedIn { get; set; }
         Image LogINOUT { set; }
         string userName { get; set; }
         string userSurname { get; set; }
@@ -30,5 +31,9 @@ namespace Keszobranie.Views
         event Action addNewCache;
         event Action loadAllCaches;
         event Action updateCacheInfo;
+        event Action addFoundCaches;
+        event Action logOut;
+        event Action removeClickedCaches;
+        event Action updateUser;
     }
 }

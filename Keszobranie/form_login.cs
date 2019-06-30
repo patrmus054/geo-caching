@@ -23,6 +23,7 @@ namespace Keszobranie
 
         public event Action authorize;
         public event Action registerNewAccount;
+        public event Action onExit;
 
         private void Bt_login_Click(object sender, EventArgs e)
         {
@@ -52,6 +53,16 @@ namespace Keszobranie
         private void Tb_login_login_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form_login_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form_login_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            onExit?.Invoke();
         }
     }
 }

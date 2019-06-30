@@ -17,17 +17,34 @@ namespace Keszobranie.DataBase
             return _context.Users.Find(id);
         }
 
-        public static IEnumerable userCaches (int UserId)
+        public static List<int> userCaches (int UserId)
         {
-            return _context.Founds.Where(c => c.userId == UserId);
+            var caches = _context.Founds.Where(c => c.userId == UserId);
+            List<int> cachesId = new List<int>();
+            foreach(var cache in caches)
+            {
+                cachesId.Add(cache.keszId);
+            }
+            return cachesId;
         }
 
-        public static void userNewCache(int UserId, int CacheId)
+        public static void updateUserData(int userId, string name, string surname, string email, string password)
+        {
+            var user = GetUserById(userId);
+            if(!String.IsNullOrEmpty(name)) user.name = name;
+            if (!String.IsNullOrEmpty(surname)) user.surname = surname;
+            if (!String.IsNullOrEmpty(email)) user.email = email;
+            if (!String.IsNullOrEmpty(password)) user.password = password;
+            _context.SaveChanges();
+
+        }
+        public static void newCache(int userId, int cacheId)
         {
             var found = new Found();
-            found.userId = UserId;
-            found.keszId = CacheId;
+            found.userId = userId;
+            found.keszId = cacheId;
             _context.Founds.Add(found);
+            _context.SaveChanges(); ;
         }
 
         public static List<User> getUsers()
@@ -67,6 +84,10 @@ namespace Keszobranie.DataBase
         {
             var location = _context.Locations.Find(cacheId);
             return location;
+        }
+        public static Kesz getCache(int cacheId)
+        {
+            return _context.Caches.FirstOrDefault(c => c.Id == cacheId);
         }
         public static int userCachesFound(int userId)
         {
